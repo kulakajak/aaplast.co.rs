@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Kapajuce cevi polidrip
-categories: kapajuce-cevi polidrip
+categories: kapajuce-cevi
 image: "cevi pe.png"
 ---
 

@@ -1,0 +1,14 @@
+---
+title: Polidrip
+layout: default
+---
+
+<ul>
+  {% for post in site.categories.polidrip %}
+  <ul>
+    <a href="{{ post.url }}">
+      {{ post.title}}
+    </a>
+  </ul>
+  {% endfor %}
+</ul>

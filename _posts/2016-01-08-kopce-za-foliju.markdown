@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Kopce za foliju
-categories: kopce polidrip
+categories: kopce
 image: Kopče za foliju.png
 ---
 
