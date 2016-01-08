@@ -42,6 +42,22 @@
         <div class='text'>
           {{ content }}
         </div>
+        <p>
+        {% for cat in page.categories %}
+          {% if site.categories.[cat].size != 1 %}
+            Pogledajte slicne <b>{{ cat }}</b>:
+            <ul>
+              {% for p in site.categories.[cat] %}
+                {% unless p == page %}
+                  <li>
+                    <a href="{{ p.url }}">{{ p.title }}</a>
+                  </li>
+                {% endunless %}
+              {% endfor %}
+            </ul>
+          {% endif  %}
+        {% endfor %}
+        </p>
         <div class='clear'></div>
         <h2 class="footer-heading">{{ site.title }}</h2>
       </div><!--.content-->
