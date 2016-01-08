@@ -2,6 +2,7 @@
 layout: post
 title:  Kapajuce cevi polidrip
 categories: kapajuce-cevi polidrip
+image: "cevi pe.png"
 ---
 
 # Dubinske cevi

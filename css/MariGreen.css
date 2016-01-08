@@ -31,7 +31,7 @@ body{
 	font-size: 14px;
 	color: #018301;
 	background-color: #40910e;
-	background: url('img/list.jpg') 0 0 repeat;
+	background: url('/img/list.jpg') 0 0 repeat;
 	background-attachment: fixed;
 	border-top: 1px solid transparent;
 }
@@ -257,7 +257,7 @@ form button{
 
 
 .wrapper .content .logo_transparent{
-	background: url('img/logo_transparent.png') center top no-repeat;
+	background: url('/img/logo_transparent.png') center top no-repeat;
 	background-size: 20%;
 	height: 107px;
 	padding-bottom: 15px;
@@ -281,18 +281,23 @@ p.bottom_text{
 
 
 
+.footer-heading {
+  margin-left: 50%;
+}
 /*------------------footer-------------------------------------------------------------*/
-.footer{
+footer{
 	margin: 10px auto;
 	color: rgb(218, 238, 197);
 	width: 952px;
 }
-.footer a{
+footer a{
 	color: #eeffee;
 }
 
-
-
+footer ul li {
+  float: left;
+  margin: 10px;
+}
 
 
 
