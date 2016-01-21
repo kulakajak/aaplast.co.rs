@@ -1,5 +1,5 @@
 ---
-title: Polidrip
+title: Palaplast
 layout: default
 ---
 
@@ -8,7 +8,7 @@ layout: default
 Izdvajamo iz ponude:
 
 <ul>
-  {% for post in site.categories.polidrip %}
+  {% for post in site.categories.palaplast %}
   <ul>
     <a href="{{ post.url }}">
       {{ post.title}}

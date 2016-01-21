@@ -16,3 +16,5 @@ url: "http://www.aaplast.co.rs" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+permalink: none
