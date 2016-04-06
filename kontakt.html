@@ -7,7 +7,24 @@ title: Kontakt
   <li>Tel: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
   <li>Email: <a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
 </ul>
-<link rel="stylesheet" href="//s3.amazonaws.com/funnelnow/uni-form/uni-form.css">
-<div id="funnelFormContainer"></div>
-<script type="text/javascript" src="//funnelnow.com/widget/195"></script>
 
+<form action="https://formspree.io/{{ site.email }}"
+  method="POST" class="form">
+  <input type="hidden" name="_subject" value="AAPlast kontakt">
+  <br>
+  <label for="name">Naziv vaše kompanije ili Vaše ime *</label>
+  <input type="text" name="name" id="name" required>
+  <br>
+  <label for="email">Vaša imejl adresa *</label>
+  <input type="email" name="_replyto" id="email" required>
+  <br>
+  <label for="phone">Vaš kontakt telefon (fiksni ili mobilni)
+  </label>
+  <input type="text" name="phone" id="phone">
+  <br>
+  <label for="other">Vaša poruka.
+  </label>
+  <textarea name="body"></textarea>
+  <br>
+  <input type="submit" value="Pošalji" class="send">
+</form>

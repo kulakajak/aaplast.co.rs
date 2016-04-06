@@ -2,6 +2,7 @@
 layout: post
 title:  Kapajuce cevi
 categories: kapajuce-cevi
+image: cevi pe.png
 ---
 
 ![kapajuce cevi palaplast irritec](/img/cevi pe.png)

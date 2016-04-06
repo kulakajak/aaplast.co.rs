@@ -1,15 +1,21 @@
 ---
 layout: post
 title:  Kapljac Axios Kompenzujuci
-categories: kapljac polidrip
+categories: kapljac
 image: "Kapljac Axios kompenzujući.png"
 ---
 
 # Kapljaci
 
-| Dubina | Precnik | Presek|
-|-|-|-|
-|20|14|13|
-|23|13|13|
-|24|16|13|
+![Kapljači Palaplast Irritec](/img/Kapljač Nestos.png)
+
+![Kapljači-Palaplast-Irritec](/img/Kapljac Axios kompenzujući.png)
+
+| Nestos       | 2 l/h   |              |
+| Nestos       | 4 i/h   |              |
+| Nestos       | 6 l/h   |              |
+| Axios        | 2 l/h   | kompenzujući |
+| Axios        | 4 l-h   | kompenzujući |
+| Ardas        | 0-70 l/h|              |
+
 
